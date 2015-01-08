@@ -24,3 +24,7 @@ So what is this plugin actually doing? It's simple:
 2. On page scroll, it checks what `<p>` tags haven't been scrolled past.
 3. Calculates how many words are in the remaining paragraphs.
 4. Based on the remaining words, it outputs how long it will take to finish reading the article.
+
+---
+
+*Written by [Dave Lunny](himynameisdave.github.io) in the beautiful year of 2015.*

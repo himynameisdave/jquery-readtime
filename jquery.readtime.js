@@ -12,7 +12,6 @@
         _elements.push($(this));
       });
 
-      // _elements[0].text('Hello World!')
   }
 
   ////  The goods: called every time the window scrolls
@@ -60,7 +59,7 @@
   //  takes a word count and spits out the mins to read it
   var readTime = function(wc){
     //  answer is rounded as we only want to display full minutes
-    return Math.round(wc/190);//because 200wpm is average reading time on screens, but I'm being slightly more realistic
+    return Math.round(wc/190);//because 200wpm is average reading speed for screens, but I'm being slightly more realistic
   }
   //  in the gist this is an Array.prototype but not here cause that'll fuck with the 'global namespace'
   var addArrayElements = function(arr){

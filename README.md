@@ -20,6 +20,8 @@ By default, it's gonna throw that in your `.bower_components/` directory. It can
 <script type="text/javascript" src="bower_components/jquery-readtime/jquery.readtime.min.js"></script>
 ```
 
+You will likely want to move it or just alter your `.bowerrc` file to change the location where Bower installs stuff so that you don't have to type out that big long path.
+
 ####Usage
 Usage is dead simple. Just grab the element(s) you want to be injected with the number of minutes remaining and call `readTime()` on it:
 

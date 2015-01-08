@@ -3,6 +3,8 @@
 
 Based off of [a pen I wrote](http://codepen.io/hi_mynameisdave/pen/QwGbzo). Despite the fact that I rarely use jQuery and almost never use plugins for it, I still thought this would be a fitting use of that script.
 
+![gif showing usage of jquery-readtime](http://i.imgur.com/QF346Ro.gif)
+
 ####Usage
 Usage is dead simple. Just grab the element(s) you want to be injected with the number of minutes remaining and call `readTime()` on it:
 
@@ -10,10 +12,12 @@ Usage is dead simple. Just grab the element(s) you want to be injected with the 
 $("#your-element-selector").readTime();
 ```
 
-`.readTime()` accepts no paramaters. Don't feed it any.
-
 ####Assumptions
 jQuery Readtime assumes that your document is going to be broken up into nice little paragraphs using `<p>` tags (as it should be if you're writing semantic markup). If it isn't the plugin will not function. Currently working on a fallback for this so that at least something will be displayed.
+
+`.readTime()` accepts no paramaters. Don't feed it any.
+
+It also only provides you with & updates the number of minutes. It **does not** provide any UI or even the word "mins" - that's all on you as the developer. It is done this way so that it can be as lightweight as possible & so that it can be injected into anyone's UI.
 
 ---
 

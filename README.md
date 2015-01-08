@@ -32,3 +32,7 @@ So what is this plugin actually doing? It's simple:
 ---
 
 *Written by [Dave Lunny](himynameisdave.github.io) in the beautiful year of 2015.*
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/himynameisdave/jquery-readtime/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

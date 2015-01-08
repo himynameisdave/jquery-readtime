@@ -1,0 +1,27 @@
+{
+  "name": "jquery-readtime",
+  "version": "0.1.0",
+  "homepage": "https://github.com/himynameisdave/jquery-readtime",
+  "description": "A jQuery plugin that displays the estimated time to finish reading a particular article",
+  "main": "jquery.readtime.js",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "javascript",
+    "blogging",
+    "read",
+    "time",
+    "widget"
+  ],
+  "authors": [
+    "Dave Lunny"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

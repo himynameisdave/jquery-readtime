@@ -3,7 +3,22 @@
 
 ![gif showing usage of jquery-readtime](http://i.imgur.com/QF346Ro.gif)
 
-Based off of [a pen that I wrote](http://codepen.io/hi_mynameisdave/pen/QwGbzo). Despite the fact that I rarely use jQuery and almost never use plugins for it, I still thought this would be a fitting use of that script.
+Based off of [a pen that I wrote](http://codepen.io/hi_mynameisdave/pen/QwGbzo). Despite the fact that [I rarely use jQuery](http://youmightnotneedjquery.com/) and almost never use plugins for it, I still thought this would be a fitting use of that script.
+
+---
+
+####Installation
+To get it, you can clone this repo, just download the [plugin file](https://raw.githubusercontent.com/himynameisdave/jquery-readtime/master/jquery.readtime.min.js), or you could install it [using Bower](http://bower.io/#install-packages) like a normal person:
+
+```bash
+bower install jquery-readtime
+```
+
+By default, it's gonna throw that in your `.bower_components/` directory. It can be referenced as follows (be sure to [include jQuery](https://code.jquery.com/) before it though):
+
+```html
+<script type="text/javascript" src="bower_components/jquery-readtime/jquery.readtime.min.js"></script>
+```
 
 ####Usage
 Usage is dead simple. Just grab the element(s) you want to be injected with the number of minutes remaining and call `readTime()` on it:

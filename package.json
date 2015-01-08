@@ -4,6 +4,9 @@
   "description": "A jQuery plugin that displays the estimated time to finish reading a particular article.",
   "main": "gulpfile.js",
   "private": "true",
+  "keywords": [
+    "jQuery", "plugin", "jquery-plugin", "blog", "blogging", "blogging-tool", "read", "article"
+  ],
   "devDependencies": {
     "autoprefixer": "^4.0.0",
     "less": "^2.2.0",

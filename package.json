@@ -1,0 +1,17 @@
+{
+  "name": "jQuery-Readtime",
+  "version": "0.1.0",
+  "description": "A jQuery plugin that displays the estimated time to finish reading a particular article.",
+  "main": "gulpfile.js",
+  "private": "true",
+  "devDependencies": {
+    "autoprefixer": "^4.0.0",
+    "less": "^2.2.0",
+    "uglify-js": "^2.4.16"
+  },
+  "scripts": {
+    "less": "lessc tests/style.less > tests/style.css",
+    "prefix": "autoprefixer tests/*.css",
+    "minify": "uglifyjs jquery.readtime.js --screw-ie8 -o jquery.readtime.min.js"
+  }
+}

@@ -1,9 +1,9 @@
 ##Readtime for jQuery
 >A jQuery plugin that displays the estimated time to finish reading a particular article
 
-Based off of [a pen I wrote](http://codepen.io/hi_mynameisdave/pen/QwGbzo). Despite the fact that I rarely use jQuery and almost never use plugins for it, I still thought this would be a fitting use of that script.
-
 ![gif showing usage of jquery-readtime](http://i.imgur.com/QF346Ro.gif)
+
+Based off of [a pen that I wrote](http://codepen.io/hi_mynameisdave/pen/QwGbzo). Despite the fact that I rarely use jQuery and almost never use plugins for it, I still thought this would be a fitting use of that script.
 
 ####Usage
 Usage is dead simple. Just grab the element(s) you want to be injected with the number of minutes remaining and call `readTime()` on it:
